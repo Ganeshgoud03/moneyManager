@@ -1,0 +1,62 @@
+/* Write your CSS here */
+@media (max-width: 576px) {
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 117%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 2px solid #cbd5e1;
+    margin-left: -17%;
+  }
+
+  .transaction-text {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 15px;
+    width: 30%;
+    padding-right: 10px;
+  }
+
+  .delete-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .delete-icon {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+@media (min-width: 576px) {
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 110%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 2px solid #cbd5e1;
+    margin-left: -9.5%;
+  }
+
+  .transaction-text {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 15px;
+    width: 30%;
+    padding-right: 10px;
+  }
+
+  .delete-button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .delete-icon {
+    height: 24px;
+    width: 24px;
+  }
+}
